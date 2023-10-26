@@ -1,0 +1,3 @@
+{
+    "java.checkstyle.configuration": "${workspaceFolder}\\.github\\linters\\sun_checks.xml"
+}
