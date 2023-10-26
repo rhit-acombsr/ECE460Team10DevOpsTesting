@@ -11,7 +11,14 @@ package edu.rose_hulman;
  */
 public class App
 {
+    /**
+     * The name of the application.
+     */
     private String appName;
+
+    /**
+     * The version number of the application.
+     */
     private double appVersion;
 
     /**
