@@ -12,18 +12,18 @@ package edu.rose_hulman;
 public class App
 {
     private String appName;
-    private double version;
+    private double appVersion;
 
     /**
      * Constructs an {@code App} instance with the specified name and version.
      *
-     * @param appName  The name of the application.
+     * @param name  The name of the application.
      * @param version  The version number of the application.
      */
-    public App(String appName, double version)
+    public App(String name, double version)
     {
-        this.appName = appName;
-        this.version = version;
+        this.appName = name;
+        this.appVersion = version;
     }
 
     /**
@@ -33,7 +33,7 @@ public class App
      */
     public String getAppDescription()
     {
-        String description = this.appName + ", version " + Double.toString(this.version);
+        String description = this.appName + ", version " + Double.toString(this.appVersion);
         return description;
     }
 
@@ -43,7 +43,7 @@ public class App
      *
      * @param args The command-line arguments (not used in this example).
      */
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
         App myApp = new App("Test App", 1.0);
         String description = myApp.getAppDescription();
