@@ -52,7 +52,7 @@ public class App
      */
     public static void main(String[] args)
     {
-        App myApp = new App("Test App", 1.0);
+        App myApp = new App("Chaitanya's loaner wuz here", 1.0);
         String description = myApp.getAppDescription();
         System.out.println(description);
     }
